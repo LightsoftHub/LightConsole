@@ -1,0 +1,22 @@
+{
+  "SmtpMailSettings": {
+    "PreferMailKit": true,
+    "DefaultFrom": "noe.klein@ethereal.email",
+    "Host": "smtp.ethereal.email",
+    "Port": 587,
+    "UserName": "noe.klein@ethereal.email",
+    "Password": "uaHa8hyw59eUYFAe3z",
+    "DisplayName": "Email Display Name",
+    "Cc": "",
+    "Bcc": ""
+  },
+
+  "GraphMailSettings": {
+    "DefaultFrom": "userGraph@domain.com",
+    "TenantId": "guid",
+    "ClientId": "guid",
+    "ClientSecret": "P@ssword",
+    "Cc": "",
+    "Bcc": ""
+  }
+}
