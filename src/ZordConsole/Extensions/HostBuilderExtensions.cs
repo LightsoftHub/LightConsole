@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Serilog;
-using Zord.Extensions.Logging;
+using Zord.Serilog;
 
 namespace ZordConsole.Extensions
 {
@@ -24,8 +23,8 @@ namespace ZordConsole.Extensions
                     services.AddServiceCollections(Configuration);
                 });
 
-            // inject
-            host.UseSerilog(Serilogger.Configure);
+            // Serilog
+            host.ConfigureSerilog();
 
             return host;
         }

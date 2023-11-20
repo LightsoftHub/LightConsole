@@ -9,15 +9,8 @@ namespace ZordConsole.Features
         Task PrintAsync();
     }
 
-    public class ViewDateTime : IViewDateTime
+    public class ViewDateTime(IDateTimeService _dateTimeService) : IViewDateTime
     {
-        private readonly IDateTimeService _dateTimeService;
-
-        public ViewDateTime(IDateTimeService dateTimeService)
-        {
-            _dateTimeService = dateTimeService;
-        }
-
         public Task Print()
         {
             Console.WriteLine($"---------------");

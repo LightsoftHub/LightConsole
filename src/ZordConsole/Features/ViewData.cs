@@ -3,15 +3,8 @@ using ZordConsole.Services;
 
 namespace ZordConsole.Features
 {
-    public class ViewData : IService
+    public class ViewData(IConfigurationService _configurationService) : IService
     {
-        private readonly IConfigurationService _configurationService;
-
-        public ViewData(IConfigurationService configurationService)
-        {
-            _configurationService = configurationService;
-        }
-
         public Task Print()
         {
             var env = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
