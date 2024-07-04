@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 // set Environment
 //Environment.SetEnvironmentVariable("ASPNETCORE_ENVIRONMENT", "Live");
 
-Console.WriteLine("Hello World, this is .NET 8 Console example with dependency injection");
+Console.WriteLine("Hello World, this is .NET 8 Console boilerplate with dependency injection");
 
 using var host = Host.CreateHostBuilder(args).Build();
 using var scope = host.Services.CreateScope();
