@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D29A7D31-A5CF-4923-B3B2-B38A9BE9202C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZordConsole", "src\ZordConsole\ZordConsole.csproj", "{9C526C4B-B623-432B-8F6E-2376089BCD15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightConsole", "src\LightConsole\LightConsole.csproj", "{9C526C4B-B623-432B-8F6E-2376089BCD15}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9C8F38F1-88D1-4605-8D35-BD426431B11E}"
 	ProjectSection(SolutionItems) = preProject

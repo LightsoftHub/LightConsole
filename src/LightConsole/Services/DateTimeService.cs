@@ -1,4 +1,4 @@
-namespace ZordConsole.Services
+namespace LightConsole.Services
 {
     public interface IDateTimeService
     {

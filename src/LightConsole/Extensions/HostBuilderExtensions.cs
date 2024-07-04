@@ -1,8 +1,8 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Light.Serilog;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Zord.Serilog;
 
-namespace ZordConsole.Extensions
+namespace LightConsole.Extensions
 {
     public static class Host
     {

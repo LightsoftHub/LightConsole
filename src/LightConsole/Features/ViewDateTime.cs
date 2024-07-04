@@ -1,7 +1,7 @@
-﻿using ZordConsole.Abstracts;
-using ZordConsole.Services;
+﻿using LightConsole.Abstracts;
+using LightConsole.Services;
 
-namespace ZordConsole.Features
+namespace LightConsole.Features
 {
     public interface IViewDateTime : IService
     {

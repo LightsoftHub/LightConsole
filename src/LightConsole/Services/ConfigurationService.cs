@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace ZordConsole.Services
+namespace LightConsole.Services
 {
     public interface IConfigurationService
     {

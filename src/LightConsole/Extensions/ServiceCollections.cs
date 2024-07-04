@@ -1,8 +1,8 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using LightConsole.Services;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using ZordConsole.Services;
 
-namespace ZordConsole.Extensions
+namespace LightConsole.Extensions
 {
     public static class ServiceCollections
     {

@@ -1,7 +1,7 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using ZordConsole.Abstracts;
+﻿using LightConsole.Abstracts;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace ZordConsole.Extensions
+namespace LightConsole.Extensions
 {
     public static class ServiceHostExtensions
     {

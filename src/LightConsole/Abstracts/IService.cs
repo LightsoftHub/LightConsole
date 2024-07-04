@@ -1,4 +1,4 @@
-﻿namespace ZordConsole.Abstracts
+﻿namespace LightConsole.Abstracts
 {
     public interface IService
     {
