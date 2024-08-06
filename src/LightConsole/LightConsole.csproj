@@ -28,7 +28,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.*" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.*" />
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.*" />
-    <PackageReference Include="MSW.Light.Serilog" Version="0.0.0.2" />
+    <PackageReference Include="Lightsoft.Serilog" Version="0.0.0.1" />
   </ItemGroup>
 
 </Project>
